@@ -54,6 +54,7 @@ UI 레이어는 화면에 데이터를 렌더링하는 UI요소(View)와 데이�
     DataSource 클래스는 데이터 작업을 위해 애플리케이션과 시스템 간의 다리 역할을 한다.
     
 - Mapper
+    
     Domain Layer가 있다면 Domain Layer는 Data Layer에 대해 모르므로, Data를 Domain Layer가 알 수 있도록 Mapping 해주는 Mapper가 필요하다.
 
 ## Domain Layer
