@@ -165,7 +165,7 @@
 > 1. ViewModel 설계가 쉽지 않음
 
 <br>
----------------------------------------------   
+   
 참고 자료   
 [Clean Architecture reference](https://blog.coderifleman.com/2017/12/18/the-clean-architecture/)    
 [MVC reference](https://thdev.tech/androiddev/2016/10/23/Android-MVC-Architecture/)   
