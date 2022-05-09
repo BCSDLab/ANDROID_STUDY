@@ -37,6 +37,8 @@ Android에서는 크게 3가지의 대표적인 Architecture Design Pattern이 �
 
 ### MVC (Model + View + Controller) 
 
+<img width="883" alt="스크린샷 2022-05-09 오후 10 21 49" src="https://user-images.githubusercontent.com/23609119/167419149-a7f7b57f-64b0-4e34-b0b5-8ee283f25d16.png">
+
 - **Model**: Data + State + Business logic, Application의 데이터와 상태, 비즈니스 로직을 포함하고 있다. View와 Controller에 종속되지 않으며 이런 이유로 여러 곳에서 재사용이 가능하다.
 - **View**: Model을 표시하는 방법(Representation) 이다. UI를 렌더링하며 사용자와 애플리케이션의 상호작용이 있을 때 Controller와 통신한다.
   View는 멍청하다(Model의 상태를 이해하지 못하고, 사용자와의 상호작용을 어떻게 처리해야 하는지 모른다). 이렇게 하는 이유는 Model과의 결합도를 낮춰 코드 변화에 더 유연하게 대처할 수 있다.
@@ -57,6 +59,8 @@ MVC의 Controller는 몇 가지 문제점이 존재한다.
 
 ### MVP (Model + View + Presenter)
 
+<img width="938" alt="스크린샷 2022-05-09 오후 10 22 12" src="https://user-images.githubusercontent.com/23609119/167419210-3634a5f4-653b-479f-8610-adde9da00dbc.png">
+
 - **Model**: MVC의 Model과 동일 (Data + State + Business logic)
 - **View**: MVC와 비슷하지만 Android에서는 MVC와 달리 Activity/Fragment가 View의 일부로 간주된다. 다만 Android API와 의존성을 낮추기 위해 View interface를 만들고 Activity/Fragment가 이를 구현하도록 하는 것이 좋다.
 - **Presenter**: MVC의 Controller와 역할이 비슷하지만 Controller가 View에 연결되는 것에 비해 단순한 Interface로 표현한다. 따라서 Presenter는 Android API의 의존성을 제거할 수 있다.
@@ -75,6 +79,8 @@ MVC Controller 중 View의 상태를 변경하는 부분을 MVP에서는 View의
 
 ### MVVM (Model + View + ViewModel)
 
+<img width="939" alt="스크린샷 2022-05-09 오후 10 22 26" src="https://user-images.githubusercontent.com/23609119/167419235-62e5b212-6a27-4d93-819f-c6b31c68f390.png">
+
 - **Model**: MVC 및 MVP의 Model과 동일 (Data + State + Business logic)
 - **View**: 애플리케이션의 Presentation을 담당한다. 애니메이션, 버튼 처리 등의 UI 로직을 포함하되 비즈니스 로직은 포함하지 않는다.
 - **ViewModel**: View가 사용할 Method를 구현하고, View에게 상태 변화를 알린다(View는 ViewModel의 상태 변화를 옵저빙한다)
@@ -92,6 +98,7 @@ MVC Controller 중 View의 상태를 변경하는 부분을 MVP에서는 View의
 - **AAC ViewModel**: Android의 Lifecycle을 고려하여 UI 관련 데이터를 저장하고 관리한다.
 
   ![img](https://blog.kakaocdn.net/dn/VC28E/btrgWEVdrSo/lKNSDgXb625gBEZXLkNkPK/img.png)
+  
   AAC ViewModel의 생명주기는 위의 그림과 같으며 Activity의 생명주기 동안 AAC ViewModel은 유지되기 때문에 Activity의 화면 회전과 같은 상황에서도 데이터를 보존할 수 있다.
 
 두 개념은 명백히 다르다(Android에서 AAC ViewModel을 사용하지 않고 MVVM 패턴을 구현할 수 있으며 AAC ViewModel을 사용한다고 MVVM 패턴을 구현하는 것이 아니다). **그러나 AAC ViewModel을 이용하여 MVVM의 ViewModel을 구현할 수 있다**(AAC ViewModel에서 ObservableField, LiveData를 사용하여 구현). 
