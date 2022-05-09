@@ -19,7 +19,7 @@
 
 <br>
 
-![Image](C:\Users\user\Desktop\Android\CleanArchitecture.jpg)
+![Image](https://blog.coderifleman.com/images/the-clean-architecture/the-clean-architecture.jpg)
 
 동심원들은 소프트웨어의 다른 분야를 표현한다.
 일반적으로 바깥쪽으로 올라갈수록 소프트웨어의 수준이 높아진다.
@@ -83,7 +83,7 @@
 
 ## 2. Design Pattern
 ### 1. MVC
-![image](C:\Users\user\Desktop\Android\model-view-controller-mvc-pattern.png)
+![image](https://www.duplicatetransaction.com/wp-content/uploads/2020/06/model-view-controller-mvc-pattern.png)
 > #### 1. Model
 >   - 어플리케이션이 “무엇”을 할 것인지를 정의 함
 >   - 데이터 및 비지니스 로직을 처리하는 역할
@@ -113,7 +113,7 @@
 <br>
 
 ### 2. MVP
-![image](C:\Users\user\Desktop\Android\MVP.png)
+![image](https://innovationm.co/wp-content/uploads/2018/07/MVP.png)
 > #### 1. Model
 >   - Data와 관련된 처리(비지니스 로직)를 담당
 >   - 네트워크, 로컬 데이터 등을 포함하는 Data의 전반적인 부분을 Model에서 담당한다.
@@ -139,7 +139,7 @@
 <br>
 
 ### 3. MVVM
-![image](C:\Users\user\Desktop\Android\68319232-446cf900-00be-11ea-92cf-cad817b2af2c.png)
+![image](https://user-images.githubusercontent.com/1812129/68319232-446cf900-00be-11ea-92cf-cad817b2af2c.png)
 > #### 1. Model
 >   - ViewModel 이 요청한 데이터를 반환함
 >   - Room, Realm 과 같은 DB 사용 및 Retrofit 을 통한 백엔드 API 호출(네트워킹)이 보편적 
@@ -154,7 +154,7 @@
 <br>
 
 #### 장점
-> 1. View가 ViewModel의 Data를 관찰하고 있음으로 UI 업데이트가 같편
+> 1. View가 ViewModel의 Data를 관찰하고 있음으로 UI 업데이트가 간편
 > 2. ViewModel 이 데이터를 홀드하고 있으므로 Memory Leak 발생 가능성 배제
 >   (View 가 직접 Model에 접근하지 않아 Activity / Fragment 라이플 사이클에 의존하지 않기 때문)
 > 3. 기능별 모듈화가 잘 되어 유지보수에 용이 (ViewModel 재사용 및 DB 교체 작업 용이)
@@ -165,9 +165,9 @@
 > 1. ViewModel 설계가 쉽지 않음
 
 <br>
----------------------------------------------
-참고 자료
-[Clean Architecture reference](https://blog.coderifleman.com/2017/12/18/the-clean-architecture/) 
-[MVC reference](https://thdev.tech/androiddev/2016/10/23/Android-MVC-Architecture/)
-[MVP reference](https://thdev.tech/androiddev/2016/10/12/Android-MVP-Intro/)
+---------------------------------------------   
+참고 자료   
+[Clean Architecture reference](https://blog.coderifleman.com/2017/12/18/the-clean-architecture/)    
+[MVC reference](https://thdev.tech/androiddev/2016/10/23/Android-MVC-Architecture/)   
+[MVP reference](https://thdev.tech/androiddev/2016/10/12/Android-MVP-Intro/)   
 [MVVM reference](https://velog.io/@haero_kim/Android-%EA%B9%94%EC%8C%88%ED%95%98%EA%B2%8C-MVVM-%ED%8C%A8%ED%84%B4%EA%B3%BC-AAC-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
