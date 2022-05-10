@@ -1,2 +1,4 @@
-# ANDROID_STUDY
-ANDROID_STUDY
+# 1주차
+
+- Clean Architecture
+- Architecture pattern (MVC, MVP, MVVM)
