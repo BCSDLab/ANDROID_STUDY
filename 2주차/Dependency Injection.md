@@ -49,4 +49,7 @@
 **단점**
 
 - 러닝커브가 높다
-- 참조
+### 참조
+[의존성 주입이란 무엇이며 왜 필요한가?](https://kotlinworld.com/64)
+
+[[Android] DI Framework 선택지(Dagger2, Koin, Hilt)](https://velog.io/@sysout-achieve/Android-DI-Framework-%EC%84%A0%ED%83%9D%EC%A7%80Dagger2-Koin-Hilt)
