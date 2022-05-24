@@ -19,7 +19,7 @@ class Sample(){
 }
 ```
 
-## 3. 테스트 만들기
+## 3. 테스트 만들기 및 실행
 - 클래스 이름 우클릭 후 GO TO -> Test -> Create New Test...
 <img src="create_test.PNG">
 - 생성 파일 경로는 Project/app/src/test/java/com.goni99.testcode
@@ -36,6 +36,7 @@ internal class SampleTest {
 }
 ```
 <img src="testcode_ok.PNG">
+
 ## 오류 시 코드
 ```kt
 internal class SampleTest {
@@ -51,8 +52,6 @@ internal class SampleTest {
 ```
 <img src="testcode_fail.PNG">
 
-
-## 4. 테스트 실행
 
 # Reference
 [#1 Test Code]<br>
