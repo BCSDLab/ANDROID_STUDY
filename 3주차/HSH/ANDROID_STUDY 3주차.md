@@ -89,7 +89,7 @@
 
 #### TDD 개발주기
 
-![image](https://hanamon.kr/tdd%eb%9e%80-%ed%85%8c%ec%8a%a4%ed%8a%b8-%ec%a3%bc%eb%8f%84-%ea%b0%9c%eb%b0%9c/tdd-%e1%84%80%e1%85%a2%e1%84%87%e1%85%a1%e1%86%af%e1%84%8c%e1%85%ae%e1%84%80%e1%85%b5/)
+![image](https://i0.wp.com/hanamon.kr/wp-content/uploads/2021/04/TDD-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%AE%E1%84%80%E1%85%B5.png?w=1024&ssl=1)
 
 * RED : 실패하는 테스트 코드를 먼저 작성
 * GREEN : 테스트 코드를 성공 시키기 위한 실제 코드 작성
@@ -97,7 +97,7 @@
 
 #### 일반 개발 방식
 
-![image](https://hanamon.kr/tdd%eb%9e%80-%ed%85%8c%ec%8a%a4%ed%8a%b8-%ec%a3%bc%eb%8f%84-%ea%b0%9c%eb%b0%9c/%e1%84%80%e1%85%b5%e1%84%8c%e1%85%a9%e1%86%ab%e1%84%91%e1%85%b3%e1%84%85%e1%85%a9%e1%84%89%e1%85%a6%e1%84%89%e1%85%b3/)
+![image](https://i0.wp.com/hanamon.kr/wp-content/uploads/2021/04/%E1%84%80%E1%85%B5%E1%84%8C%E1%85%A9%E1%86%AB%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3.png?w=514&ssl=1)
 
 일반 개발 방식의 단점
 1. 소비자의 요구사항이 처음부터 명확하지 않을 수 있습니다.
@@ -107,7 +107,7 @@
 
 #### TDD 개발 방식
 
-![image](https://hanamon.kr/tdd%eb%9e%80-%ed%85%8c%ec%8a%a4%ed%8a%b8-%ec%a3%bc%eb%8f%84-%ea%b0%9c%eb%b0%9c/tdd%e1%84%91%e1%85%b3%e1%84%85%e1%85%a9%e1%84%89%e1%85%a6%e1%84%89%e1%85%b3/)
+![image](https://i0.wp.com/hanamon.kr/wp-content/uploads/2021/04/TDD%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3.png?w=528&ssl=1)
 
 > 이러한 반복적인 단계가 진행되면서 자연스럽게 버그가 줄어들고 소스코드는 간결해집니다.
 
